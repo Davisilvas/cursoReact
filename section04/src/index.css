@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.red-title{
+  color: red;
+  background-color: #ccff00;
+}
+
+.title{
+  color: #ccff00;
+}
