@@ -1,0 +1,22 @@
+.component_main_div{
+    margin: auto;
+    max-width: 500px;
+}
+
+.component_title{
+    font-size: 2.2rem;
+    color: blue;
+    display: flex;
+    align-self: flex-start;
+}
+
+.list_cars{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.list_cars li{
+    font-size: 1.8rem;
+    align-self: flex-start;
+}
