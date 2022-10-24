@@ -1,19 +1,79 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Camisa",
-        "price": 59.9
-      },
-      {
-        "id": 2,
-        "name": "Calça vermelha",
-        "price": 90
-      },
-      {
-        "id": 3,
-        "name": "Boné aba reta",
-        "price": 29.9
-      }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "name": "garrafa térmica",
+      "price": "30",
+      "id": 4
+    },
+    {
+      "name": "Camisa do Vasco",
+      "price": "259,99",
+      "id": 5
+    },
+    {
+      "name": "Davi Silva Santos",
+      "price": "55555",
+      "id": 6
+    },
+    {
+      "name": "Guitarra",
+      "price": "800,90",
+      "id": 7
+    },
+    {
+      "name": "ração",
+      "price": "12,5",
+      "id": 8
+    },
+    {
+      "name": "Doly",
+      "price": "0",
+      "id": 9
+    },
+    {
+      "name": "teclado",
+      "price": "44,90",
+      "id": 10
+    },
+    {
+      "name": "lenço",
+      "price": "01,00",
+      "id": 11
+    },
+    {
+      "name": "régua de alumínio",
+      "price": "13,00",
+      "id": 13
+    },
+    {
+      "name": "pelúcia charizard",
+      "price": "20,00",
+      "id": 16
+    },
+    {
+      "name": "copo Vasco",
+      "price": "21,00",
+      "id": 20
+    },
+    {
+      "name": "Arax",
+      "price": "70000000",
+      "id": 21
+    }
+  ]
 }
