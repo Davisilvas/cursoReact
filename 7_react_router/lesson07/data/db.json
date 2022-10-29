@@ -3,26 +3,26 @@
       {
         "id": 1,
         "name": "Camisa",
-        "price": 59.9
+        "price": 59.99
       },
       {
         "id": 2,
         "name": "Calça vermelha",
-        "price": 90
+        "price": 90.90
       },
       {
         "id": 3,
         "name": "Boné aba reta",
-        "price": 29.9
+        "price": 29.99
       },
       {
         "name": "garrafa térmica",
-        "price": "30",
+        "price": 30.50,
         "id": 4
       },
       {
         "name": "Camisa do Vasco",
-        "price": "259,99",
+        "price": 259.99,
         "id": 5
       }
     ]
