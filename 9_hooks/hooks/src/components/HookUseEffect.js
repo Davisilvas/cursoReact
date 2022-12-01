@@ -6,6 +6,7 @@ import { useEffect, useState } from "react"
 
 const HookUseEffect = () => {    
     const [number, setNumber] = useState(0);
+    const [anotherNumber, setAnotherNumber] = useState(0);
 
     const addNumber = () => {
         setNumber(number + 1);
@@ -17,7 +18,7 @@ const HookUseEffect = () => {
 
     // 1 - useEffect sem dependências.
     useEffect(()=>{
-        console.log('Estou sendo executado.')   
+        console.log('Estou sendo executado. E serei executado sempre que houver alguma alteração em algum state.')   
     })
 
     // 2 - array de dependências vazio
@@ -25,7 +26,34 @@ const HookUseEffect = () => {
         console.log('Serei executado apenas uma vez')
     }, [])
 
+    // 3 - com array de dependências.
 
+    useEffect(() => {
+
+        if(anotherNumber > 0){
+            console.log('Bah meu mas agora tu mexeu no state anotherNumber')
+        }
+
+    }, [anotherNumber])
+    
+    const increaseAnotherNumber = () =>{
+        setAnotherNumber(anotherNumber + 1);
+    }
+
+    // 4 - cleanup com useEffect
+
+    // useEffect(() =>{
+
+    
+    //     const timer = setTimeout(()=>{
+    //         console.log('Hello World.')
+
+    //         setAnotherNumber(anotherNumber + 1)
+    //     }, 2000)            
+        
+    //     return () => clearTimeout(timer)
+
+    // },[anotherNumber])
 
   return (
     <div>
@@ -35,6 +63,9 @@ const HookUseEffect = () => {
         <button onClick={addNumber}>Add + 1</button>
         <br />
         <button onClick={decreaseNumber}>Decrease - 1</button>
+        
+        <p>Outro númmero: {anotherNumber}</p>
+        <button onClick={increaseAnotherNumber}>Add + 1</button>
 
         <hr />
     </div>
